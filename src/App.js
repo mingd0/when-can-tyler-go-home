@@ -8,8 +8,8 @@ import QuoteBox from './components/QuoteBox';
 
 function App() {
 
-  // Jan 3, 6pm
-  const hitchEnd = useMemo(() => new Date(2022, 1, 2, 6), [])
+  // Apr 26, 6pm
+  const hitchEnd = useMemo(() => new Date(2022, 3, 25, 18), [])
   // Dec 14, 6am
   // const hitchStart = useMemo(() => new Date(2021, 11, 14, 6), [])
   // Jan 19, 2023 @ 6pm
